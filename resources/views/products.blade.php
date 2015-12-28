@@ -2,10 +2,10 @@
 
 <ul>
 	@foreach($products as $product)
-		<li>{{ $product->name }}</li>
+		<li><b>{{ $product->name }}</b></li>
 			<ul>
 				<li>{{ $product->description }}</li>
-				<li>{{ $product->price }}</li>
+				<li>R$ {{ $product->price }}</li>
 			</ul>
 	@endforeach
 </ul>

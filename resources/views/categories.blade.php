@@ -2,7 +2,7 @@
 
 <ul>
 	@foreach($categories as $category)
-		<li>{{ $category->name }}</li>
+		<li><b>{{ $category->name }}</b></li>
 			<ul>
 				<li>{{ $category->description }}</li>
 			</ul>
